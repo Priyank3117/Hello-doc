@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-lg-6 col-sm-12 main-img">
+          <img src="images/11116016_415.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col col-lg-6 col-sm-12 text-center right-side">
+
+            <div class="dark-button float-end">
+                <img src="images/dark_mode_black_24dp.svg" alt="" class="img-thumbnail">
+            </div>
+          <!-- doct img -->
+          <div class="logo mt-5">
+            <img src="images/doct-logo.jpg" alt="" />
+          </div>
+
+          <!-- login form -->
+          <div>
+            <h1>Login to your account</h1>
+
+            <div class="inp ">
+              <div class="form-floating d-flex
+              mb-3 border rounded inps ">
+                <input
+                  type="email"
+                  class="form-control border-0 no-border"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                /> <img src="images/user_circle.svg" alt="" class="pe-3 bg-white">
+                <label for="floatingInput">Username</label>
+              </div>
+              <div class="form-floating d-flex mb-3 border rounded ">
+                <input
+                  type="password"
+                  class="form-control border-0 no-border"
+                  id="floatingPassword"
+                  placeholder="Password"
+                /> <img src="images/password_icon.svg" alt="" class=" pe-3 bg-white">
+                <label for="floatingPassword">Password</label>
+              </div>
+            </div>
+            <button class="btn btn-info text-white" type="button">Login</button>
+            <div class="text-center text-info fs-5 mt-3">
+                <a href="./Resetpassword.html" class="text-info">Forget password?</a>
+            </div>
+          </div>
+         <footer class="text-muted">
+
+            <span>Terms of condition |</span>
+            <span>Privacy policy</span>
+
+         </footer>
+
+
+
+         <!-- ------------------- -->
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
