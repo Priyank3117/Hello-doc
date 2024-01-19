@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concierge Request</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Concierge.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- -----------------nav--------------- -->
+        <div
+          class="col col-12 d-flex mb-1 flex-row justify-content-between cl-1 shadow"
+        >
+          <div class="doct-logo">
+            <img src="images/doct-logo-2.png" alt="" />
+          </div>
+          <div>
+            <button  class="btn btn-outline-info text-center p-2 btn-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="35"
+                fill="currentColor"
+                class="bi bi-moon text-info m-auto p-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- -----------------nav--------------- -->
+
+        <!-- -----------------back button-------------------------- -->
+        <div class="bg-body-secondary">
+          <div class="d-flex justify-content-end back">
+            <a href="patient_submit_request.html" class="btn btn-outline-info text-center p-2 btn-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                />
+              </svg>
+              <span> back</span>
+            </a>
+          </div>
+          <!-- -----------------back button-------------------------- -->
+        </div>
+
+        <!-- -----------------form-------------------------- -->
+
+        <div class="container-fluid bg-body-secondary">
+          <div class="container bg-white ps-3">
+
+
+            <h4 class="pt-3 mb-4">Concierge Information</h4>
+
+            <div class="row">
+              <div class="col col-12 col-sm-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Your First Name</label>
+                </div>
+              </div>
+              <div class="col col-12 col-sm-6 mb-3">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Your Last Name</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-12 col-sm-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Mobile No</label>
+                </div>
+              </div>
+              <div class="col col-12 col-sm-6 mb-3">
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Email</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Relation With Patient</label>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="pt-3 mt-4 mb-4">Concierge Location</h4>
+
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Street</label>
+                </div>
+              </div>
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">City</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">State</label>
+                </div>
+              </div>
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Zip Code</label>
+                </div>
+              </div>
+            </div>
+           
+
+            <h4 class="pt-3 mb-4">Patient Information</h4>
+
+            <div class="row">
+              <div class="col col-12 mb-3">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2"
+                    >Enter Brief Details Of Symptoms(optional)</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-12 col-sm-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">First Name</label>
+                </div>
+              </div>
+              <div class="col col-12 col-sm-6 mb-3">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Last Name</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Date Of Birth</label>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="pt-3 mt-4 mb-4">Patient Contact Information</h4>
+
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email</label>
+                </div>
+              </div>
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Mobile No</label>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="pt-3 mt-4 mb-4">Patient Location</h4>
+
+            <div class="row">
+              <div class="col col-sm-6 col-12">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Room #/Suite(optional)</label>
+                </div>
+              </div>
+              
+            </div>
+           
+          
+
+            <!-- ------------------------ -->
+            <div class="row mb-3 pb-3">
+                <div class="d-grid gap-2 d-flex justify-content-end mt-4">
+                    <button class="btn btn-info me-md-2 text-white" type="button">Submit</button>
+                    <button class="btn btn-outline-info" type="button">Cancle</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 bg-dark">
+          <div class="d-flex flex-row justify-content-end align-items-center  text-white  footer p-3 ">
+              <span>Terms Of Condition | Privacy Policy</span>
+          </div>
+      </div>
+
+       
+        <!-- -----------------form-------------------------- -->
+      </div>
+    </div>
+ <script src="js/Patient_request.js"></script>
+  </body>
+</html>
