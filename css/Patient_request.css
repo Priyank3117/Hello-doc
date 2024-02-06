@@ -48,3 +48,37 @@
 }
 
 }
+
+/* -------------------------------------------------------------- */
+
+
+body.dark-mode {
+    background-color:#565050 !important; 
+    color: #fff; 
+}
+.dark-mode #hh {
+    background-color:#333333 !important; 
+    color: #fff; 
+}
+.dark-mode #bb {
+    background-color:#333333 !important; 
+    color: #fff; 
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="email"],
+.dark-mode input[type="tel"],
+.dark-mode input[type="date"],
+.dark-mode textarea,
+.dark-mode select {
+    background-color: #979090;
+    color: #fff;
+    border-color: #555555; 
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
